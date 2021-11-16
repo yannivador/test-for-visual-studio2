@@ -1,0 +1,12 @@
+ <Label Content="git add . :" HorizontalAlignment="Left" Margin="284,224,0,0" VerticalAlignment="Top"/>
+        <Button Content="add all" Click="git_add_all" HorizontalAlignment="Left" Height="20" Margin="355,228,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="git commit :" HorizontalAlignment="Left" Margin="284,253,0,0" VerticalAlignment="Top"/>
+        <Label Content="Message commit :" HorizontalAlignment="Left" Margin="310,282,0,0" VerticalAlignment="Top" Height="28" Width="113"/>
+        <TextBox x:Name="msg_commit" HorizontalAlignment="Left" Margin="315,307,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="22"/>
+        <Button Content="commit" Click="git_commit" HorizontalAlignment="Left" Height="21" Margin="474,307,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="git remote :" HorizontalAlignment="Left" Margin="284,334,0,0" VerticalAlignment="Top"/>
+        <Label Content="origin :" HorizontalAlignment="Left" Margin="314,361,0,0" VerticalAlignment="Top" Height="28" Width="113"/>
+        <TextBox x:Name="origin" HorizontalAlignment="Left" Margin="319,386,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="22"/>
+        <Button Content="remote" Click="git_remote" HorizontalAlignment="Left" Height="20" Margin="474,386,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="git push :" HorizontalAlignment="Left" Margin="285,424,0,0" VerticalAlignment="Top"/>
+        <Button Content="Push" Click="git_push" HorizontalAlignment="Left" Height="20" Margin="361,428,0,0" VerticalAlignment="Top" Width="62"/>
